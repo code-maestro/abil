@@ -1041,8 +1041,7 @@ Banner Style
 }
 
 .main-banner .left-content p {
-  margin-bottom: 30px;
-  margin-right: 45px;
+  margin: 5px;
 }
 
 .main-banner .right-image {
@@ -1455,7 +1454,7 @@ Services Style
   font-size: 20px;
   font-weight: 700;
   line-height: 35px;
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 
 .services .nacc .thumb .main-white-button {
@@ -1761,6 +1760,7 @@ Blog
 .blog-post .down-content span.date {
   font-size: 15px;
   color: #afafaf;
+  font-weight: bold;
   text-align: right;
   float: right;
   margin-top: 4px;
@@ -1819,7 +1819,9 @@ Blog
 }
 
 .post-item .right-content {
-  padding-top: 20px;
+  /* padding-top: 20px; */
+  display: flex;
+  flex-direction: column;
 }
 
 .post-item .right-content span.category {
@@ -1834,8 +1836,8 @@ Blog
 .post-item .right-content span.date {
   font-size: 15px;
   color: #afafaf;
-  text-align: right;
-  float: right;
+  text-align: left;
+  /* float: right; */
   margin-top: 4px;
 }
 
